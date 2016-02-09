@@ -11,6 +11,9 @@
 		880916E41C69BCBD00967B63 /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E31C69BCBD00967B63 /* RouteService.swift */; };
 		880916E61C69BCD100967B63 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E51C69BCD100967B63 /* Alamofire.framework */; };
 		880916E81C69BD3A00967B63 /* RouteServiceAlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */; };
+		880916EB1C69BECF00967B63 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E91C69BECF00967B63 /* RxCocoa.framework */; };
+		880916EC1C69BECF00967B63 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916EA1C69BECF00967B63 /* RxSwift.framework */; };
+		880916EE1C69C10E00967B63 /* RouteServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916ED1C69C10E00967B63 /* RouteServiceContainer.swift */; };
 		88EE582E1C69AE3E000DFF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */; };
 		88EE58301C69AE3E000DFF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE582F1C69AE3E000DFF44 /* ViewController.swift */; };
 		88EE58331C69AE3E000DFF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58311C69AE3E000DFF44 /* Main.storyboard */; };
@@ -19,6 +22,7 @@
 		88EE58431C69AE3F000DFF44 /* BartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58421C69AE3F000DFF44 /* BartTests.swift */; };
 		88EE584E1C69AE3F000DFF44 /* BartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE584D1C69AE3F000DFF44 /* BartUITests.swift */; };
 		88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE585C1C69B2F0000DFF44 /* RootContainer.swift */; };
+		8C751BC92EBD55FE05C4A7EC /* Pods_BartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */; };
 		CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA451E4F787252853439EFFF /* Pods_Bart.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FE4B420C7CAFFA8F17DF993 /* Pods-BartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.release.xcconfig"; sourceTree = "<group>"; };
 		880916E01C69B54D00967B63 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
 		880916E31C69BCBD00967B63 /* RouteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
 		880916E51C69BCD100967B63 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteServiceAlamoFire.swift; sourceTree = "<group>"; };
+		880916E91C69BECF00967B63 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "Pods/../build/Debug-iphoneos/RxCocoa.framework"; sourceTree = "<group>"; };
+		880916EA1C69BECF00967B63 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Pods/../build/Debug-iphoneos/RxSwift.framework"; sourceTree = "<group>"; };
+		880916ED1C69C10E00967B63 /* RouteServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteServiceContainer.swift; sourceTree = "<group>"; };
 		88EE582A1C69AE3E000DFF44 /* Bart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EE582F1C69AE3E000DFF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +68,8 @@
 		88EE584F1C69AE3F000DFF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EE585C1C69B2F0000DFF44 /* RootContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
 		88EE585E1C69B3FD000DFF44 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
+		97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.debug.xcconfig"; sourceTree = "<group>"; };
 		CA451E4F787252853439EFFF /* Pods_Bart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880916EB1C69BECF00967B63 /* RxCocoa.framework in Frameworks */,
+				880916EC1C69BECF00967B63 /* RxSwift.framework in Frameworks */,
 				880916E61C69BCD100967B63 /* Alamofire.framework in Frameworks */,
 				880916E11C69B54D00967B63 /* Swinject.framework in Frameworks */,
 				CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */,
@@ -79,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C751BC92EBD55FE05C4A7EC /* Pods_BartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,7 @@
 			children = (
 				880916E31C69BCBD00967B63 /* RouteService.swift */,
 				880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */,
+				880916ED1C69C10E00967B63 /* RouteServiceContainer.swift */,
 			);
 			name = Route;
 			sourceTree = "<group>";
@@ -169,6 +183,8 @@
 			children = (
 				BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */,
 				4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */,
+				97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */,
+				2FE4B420C7CAFFA8F17DF993 /* Pods-BartTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -176,10 +192,13 @@
 		AFF2E0705B90A398F0C9308D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				880916E91C69BECF00967B63 /* RxCocoa.framework */,
+				880916EA1C69BECF00967B63 /* RxSwift.framework */,
 				880916E51C69BCD100967B63 /* Alamofire.framework */,
 				880916E01C69B54D00967B63 /* Swinject.framework */,
 				88EE585E1C69B3FD000DFF44 /* Swinject.framework */,
 				CA451E4F787252853439EFFF /* Pods_Bart.framework */,
+				9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88EE58551C69AE3F000DFF44 /* Build configuration list for PBXNativeTarget "BartTests" */;
 			buildPhases = (
+				728C8988B3B01C71AD41DF97 /* Check Pods Manifest.lock */,
 				88EE583A1C69AE3F000DFF44 /* Sources */,
 				88EE583B1C69AE3F000DFF44 /* Frameworks */,
 				88EE583C1C69AE3F000DFF44 /* Resources */,
+				27BD631FCDA597FDE4863D8F /* Embed Pods Frameworks */,
+				81D6C3088B26434C02FA6E01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +351,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bart/Pods-Bart-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		27BD631FCDA597FDE4863D8F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartTests/Pods-BartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6D98E922A9AA0D2BFE4FFD1C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,6 +396,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bart/Pods-Bart-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		728C8988B3B01C71AD41DF97 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81D6C3088B26434C02FA6E01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartTests/Pods-BartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880916E81C69BD3A00967B63 /* RouteServiceAlamoFire.swift in Sources */,
+				880916EE1C69C10E00967B63 /* RouteServiceContainer.swift in Sources */,
 				88EE58301C69AE3E000DFF44 /* ViewController.swift in Sources */,
 				880916E41C69BCBD00967B63 /* RouteService.swift in Sources */,
 				88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */,
@@ -542,6 +610,7 @@
 		};
 		88EE58561C69AE3F000DFF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BartTests/Info.plist;
@@ -554,6 +623,7 @@
 		};
 		88EE58571C69AE3F000DFF44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE4B420C7CAFFA8F17DF993 /* Pods-BartTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BartTests/Info.plist;

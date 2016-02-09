@@ -3,12 +3,14 @@
 use_frameworks!
 
 target 'Bart' do
-pod 'Swinject', '~> 1.1.0'
-pod 'Alamofire', '~> 3.0'
+pod 'Swinject',     '~> 1.1.0'
+pod 'Alamofire',    '~> 3.0'
+pod 'RxSwift',      '~> 2.0'
+pod 'RxCocoa',      '~> 2.0'
 end
 
 target 'BartTests' do
-
+pod 'RxTests',      '~> 2.0'
 end
 
 target 'BartUITests' do

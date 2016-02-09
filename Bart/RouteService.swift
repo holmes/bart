@@ -6,8 +6,9 @@
 //  Copyright © 2016 Holmes. All rights reserved.
 //
 
+import RxSwift
 import Foundation
 
 protocol RouteService {
-    func getRoutes()
+    func getRoutes() -> Observable<String>
 }
