@@ -4,6 +4,7 @@ use_frameworks!
 
 target 'Bart' do
 pod 'Swinject', '~> 1.1.0'
+pod 'Alamofire', '~> 3.0'
 end
 
 target 'BartTests' do

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880916E11C69B54D00967B63 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E01C69B54D00967B63 /* Swinject.framework */; };
+		880916E41C69BCBD00967B63 /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E31C69BCBD00967B63 /* RouteService.swift */; };
+		880916E61C69BCD100967B63 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E51C69BCD100967B63 /* Alamofire.framework */; };
+		880916E81C69BD3A00967B63 /* RouteServiceAlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */; };
 		88EE582E1C69AE3E000DFF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */; };
 		88EE58301C69AE3E000DFF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE582F1C69AE3E000DFF44 /* ViewController.swift */; };
 		88EE58331C69AE3E000DFF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58311C69AE3E000DFF44 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		88EE58381C69AE3E000DFF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58361C69AE3E000DFF44 /* LaunchScreen.storyboard */; };
 		88EE58431C69AE3F000DFF44 /* BartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58421C69AE3F000DFF44 /* BartTests.swift */; };
 		88EE584E1C69AE3F000DFF44 /* BartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE584D1C69AE3F000DFF44 /* BartUITests.swift */; };
+		88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE585C1C69B2F0000DFF44 /* RootContainer.swift */; };
 		CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA451E4F787252853439EFFF /* Pods_Bart.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.release.xcconfig"; sourceTree = "<group>"; };
+		880916E01C69B54D00967B63 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
+		880916E31C69BCBD00967B63 /* RouteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
+		880916E51C69BCD100967B63 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteServiceAlamoFire.swift; sourceTree = "<group>"; };
 		88EE582A1C69AE3E000DFF44 /* Bart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EE582F1C69AE3E000DFF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,8 @@
 		88EE58491C69AE3F000DFF44 /* BartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE584D1C69AE3F000DFF44 /* BartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartUITests.swift; sourceTree = "<group>"; };
 		88EE584F1C69AE3F000DFF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EE585C1C69B2F0000DFF44 /* RootContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
+		88EE585E1C69B3FD000DFF44 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
 		BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.debug.xcconfig"; sourceTree = "<group>"; };
 		CA451E4F787252853439EFFF /* Pods_Bart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -58,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880916E61C69BCD100967B63 /* Alamofire.framework in Frameworks */,
+				880916E11C69B54D00967B63 /* Swinject.framework in Frameworks */,
 				CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880916E21C69BCA400967B63 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				880916E31C69BCBD00967B63 /* RouteService.swift */,
+				880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */,
+			);
+			name = Route;
+			sourceTree = "<group>";
+		};
 		88EE58211C69AE3E000DFF44 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +126,8 @@
 		88EE582C1C69AE3E000DFF44 /* Bart */ = {
 			isa = PBXGroup;
 			children = (
+				880916E21C69BCA400967B63 /* Route */,
+				88EE585B1C69B2D5000DFF44 /* Root */,
 				88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */,
 				88EE582F1C69AE3E000DFF44 /* ViewController.swift */,
 				88EE58311C69AE3E000DFF44 /* Main.storyboard */,
@@ -132,6 +156,14 @@
 			path = BartUITests;
 			sourceTree = "<group>";
 		};
+		88EE585B1C69B2D5000DFF44 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				88EE585C1C69B2F0000DFF44 /* RootContainer.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
 		A51FB1E7AF2865E57496DCEB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +176,9 @@
 		AFF2E0705B90A398F0C9308D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				880916E51C69BCD100967B63 /* Alamofire.framework */,
+				880916E01C69B54D00967B63 /* Swinject.framework */,
+				88EE585E1C69B3FD000DFF44 /* Swinject.framework */,
 				CA451E4F787252853439EFFF /* Pods_Bart.framework */,
 			);
 			name = Frameworks;
@@ -331,7 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880916E81C69BD3A00967B63 /* RouteServiceAlamoFire.swift in Sources */,
 				88EE58301C69AE3E000DFF44 /* ViewController.swift in Sources */,
+				880916E41C69BCBD00967B63 /* RouteService.swift in Sources */,
+				88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */,
 				88EE582E1C69AE3E000DFF44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +513,10 @@
 			baseConfigurationReference = BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Bart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.holmes.Bart;
@@ -487,6 +529,10 @@
 			baseConfigurationReference = 4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = Bart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.holmes.Bart;
