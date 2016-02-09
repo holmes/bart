@@ -12,8 +12,9 @@ import Swinject
 public class RootContainer {
     let rootContainer: Container = Container()
 
-    func initialize() {
+    func initialize() -> Container {
         registerNetworkServices(rootContainer)
+        return rootContainer
     }
 
     private func registerNetworkServices(container: Container) {

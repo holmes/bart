@@ -6,16 +6,22 @@
 //  Copyright © 2016 Holmes. All rights reserved.
 //
 
+import RxSwift
+import Swinject
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    let disposeBag = DisposeBag()
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        RootContainer().initialize()
+        let rootContainer = RootContainer().initialize()
+        let routeService = rootContainer.resolve(RouteService.self)
+
+        routeService?.getRoutes().subscribeNext {
+            NSLog($0)
+        }.addDisposableTo(disposeBag)
 
         // Override point for customization after application launch.
         return true
