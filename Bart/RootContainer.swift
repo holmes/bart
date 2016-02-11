@@ -10,20 +10,21 @@ import Foundation
 import Swinject
 
 public class RootContainer {
-    let rootContainer: Container = Container()
+  let rootContainer: Container = Container()
 
-    func initialize() -> Container {
-        registerNetworkServices(rootContainer)
+  func initialize() -> Container {
+    registerNetworkServices(rootContainer)
 
-        rootContainer.register(StationManager.self) { r in
-            let stationService = r.resolve(StationService.self)!
-            return StationManager(stationService: stationService)
-        }
-
-        return rootContainer
+    rootContainer.register(StationManager.self) {
+      r in
+      let stationService = r.resolve(StationService.self)!
+      return StationManager(stationService: stationService)
     }
 
-    private func registerNetworkServices(container: Container) {
-        ServiceContainer(parent: rootContainer).initialize()
-    }
+    return rootContainer
+  }
+
+  private func registerNetworkServices(container: Container) {
+    ServiceContainer(parent: rootContainer).initialize()
+  }
 }

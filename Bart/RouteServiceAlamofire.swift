@@ -10,16 +10,17 @@ import Alamofire
 import Foundation
 import RxSwift
 
-public class RouteServiceAlamofire : RouteService {
+public class RouteServiceAlamofire: RouteService {
 
-    func getRoutes() -> Observable<String> {
-        let subject = PublishSubject<String>()
+  func getRoutes() -> Observable<String> {
+    let subject = PublishSubject<String>()
 
-        Alamofire.request(.GET, "https://httpbin.org/get", parameters: ["foo": "bar"])
-            .responseString { response in
-                subject.onNext(response.result.value!)
-        }
-
-        return subject
+    Alamofire.request(.GET, "https://httpbin.org/get", parameters: ["foo": "bar"])
+    .responseString {
+      response in
+      subject.onNext(response.result.value!)
     }
+
+    return subject
+  }
 }

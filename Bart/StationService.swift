@@ -10,5 +10,5 @@ import Foundation
 import RxSwift
 
 protocol StationService {
-    func getStations() -> Observable<[Station]>
+  func getStations() -> Observable<[Station]>
 }

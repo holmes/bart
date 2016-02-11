@@ -9,9 +9,9 @@
 import Foundation
 
 public struct Route {
-    let name: String
-    let abbr: String
-    let routeId: String
-    let number: Int
-    let color: String
+  let name: String
+  let abbr: String
+  let routeId: String
+  let number: Int
+  let color: String
 }

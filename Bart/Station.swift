@@ -22,16 +22,17 @@ import Foundation
 ///   <state>CA</state>
 ///   <zipcode>94612</zipcode>
 /// </station>
+
 public struct Station {
-    let name: String
-    let abbr: String
-    let latitude: Double
-    let longitude: Double
-    let address: String
-    let city: String
-    let county: String
-    let state: String
-    let zipcode: String
-    let northRouteIds: [String]
-    let southRouteIds: [String]
+  let name: String
+  let abbr: String
+  let latitude: Double
+  let longitude: Double
+  let address: String
+  let city: String
+  let county: String
+  let state: String
+  let zipcode: String
+  let northRouteIds: [String]
+  let southRouteIds: [String]
 }

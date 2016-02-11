@@ -10,5 +10,5 @@ import Foundation
 import RxSwift
 
 protocol RouteService {
-    func getRoutes() -> Observable<String>
+  func getRoutes() -> Observable<String>
 }
