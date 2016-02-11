@@ -10,10 +10,14 @@
 		880916E11C69B54D00967B63 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E01C69B54D00967B63 /* Swinject.framework */; };
 		880916E41C69BCBD00967B63 /* RouteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E31C69BCBD00967B63 /* RouteService.swift */; };
 		880916E61C69BCD100967B63 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E51C69BCD100967B63 /* Alamofire.framework */; };
-		880916E81C69BD3A00967B63 /* RouteServiceAlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */; };
+		880916E81C69BD3A00967B63 /* RouteServiceAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916E71C69BD3A00967B63 /* RouteServiceAlamofire.swift */; };
 		880916EB1C69BECF00967B63 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916E91C69BECF00967B63 /* RxCocoa.framework */; };
 		880916EC1C69BECF00967B63 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880916EA1C69BECF00967B63 /* RxSwift.framework */; };
-		880916EE1C69C10E00967B63 /* RouteServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880916ED1C69C10E00967B63 /* RouteServiceContainer.swift */; };
+		88D690901C6BAE0300C62C77 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6908F1C6BAE0300C62C77 /* Station.swift */; };
+		88D690921C6BAF2B00C62C77 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D690911C6BAF2B00C62C77 /* Route.swift */; };
+		88D690941C6BB0C700C62C77 /* StationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D690931C6BB0C700C62C77 /* StationManager.swift */; };
+		88D690971C6BB20900C62C77 /* StationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D690961C6BB20900C62C77 /* StationService.swift */; };
+		88D690991C6BB25300C62C77 /* StationServiceAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D690981C6BB25300C62C77 /* StationServiceAlamofire.swift */; };
 		88EE582E1C69AE3E000DFF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */; };
 		88EE58301C69AE3E000DFF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE582F1C69AE3E000DFF44 /* ViewController.swift */; };
 		88EE58331C69AE3E000DFF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58311C69AE3E000DFF44 /* Main.storyboard */; };
@@ -23,6 +27,7 @@
 		88EE584E1C69AE3F000DFF44 /* BartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE584D1C69AE3F000DFF44 /* BartUITests.swift */; };
 		88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE585C1C69B2F0000DFF44 /* RootContainer.swift */; };
 		8C751BC92EBD55FE05C4A7EC /* Pods_BartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */; };
+		B7C6E0D349AEEF473A3D8E68 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4ECE8DE9191FDC3B7DC /* ServiceContainer.swift */; };
 		CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA451E4F787252853439EFFF /* Pods_Bart.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +54,14 @@
 		880916E01C69B54D00967B63 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
 		880916E31C69BCBD00967B63 /* RouteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
 		880916E51C69BCD100967B63 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
-		880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteServiceAlamoFire.swift; sourceTree = "<group>"; };
+		880916E71C69BD3A00967B63 /* RouteServiceAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteServiceAlamofire.swift; sourceTree = "<group>"; };
 		880916E91C69BECF00967B63 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "Pods/../build/Debug-iphoneos/RxCocoa.framework"; sourceTree = "<group>"; };
 		880916EA1C69BECF00967B63 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Pods/../build/Debug-iphoneos/RxSwift.framework"; sourceTree = "<group>"; };
-		880916ED1C69C10E00967B63 /* RouteServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteServiceContainer.swift; sourceTree = "<group>"; };
+		88D6908F1C6BAE0300C62C77 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		88D690911C6BAF2B00C62C77 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		88D690931C6BB0C700C62C77 /* StationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationManager.swift; sourceTree = "<group>"; };
+		88D690961C6BB20900C62C77 /* StationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationService.swift; sourceTree = "<group>"; };
+		88D690981C6BB25300C62C77 /* StationServiceAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationServiceAlamofire.swift; sourceTree = "<group>"; };
 		88EE582A1C69AE3E000DFF44 /* Bart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EE582F1C69AE3E000DFF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +79,7 @@
 		88EE585E1C69B3FD000DFF44 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
 		97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C6E4ECE8DE9191FDC3B7DC /* ServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
 		BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.debug.xcconfig"; sourceTree = "<group>"; };
 		CA451E4F787252853439EFFF /* Pods_Bart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,10 +119,28 @@
 			isa = PBXGroup;
 			children = (
 				880916E31C69BCBD00967B63 /* RouteService.swift */,
-				880916E71C69BD3A00967B63 /* RouteServiceAlamoFire.swift */,
-				880916ED1C69C10E00967B63 /* RouteServiceContainer.swift */,
+				880916E71C69BD3A00967B63 /* RouteServiceAlamofire.swift */,
 			);
 			name = Route;
+			sourceTree = "<group>";
+		};
+		88D6908E1C6BADF200C62C77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88D6908F1C6BAE0300C62C77 /* Station.swift */,
+				88D690911C6BAF2B00C62C77 /* Route.swift */,
+				88D690931C6BB0C700C62C77 /* StationManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		88D690951C6BB1FF00C62C77 /* Station */ = {
+			isa = PBXGroup;
+			children = (
+				88D690961C6BB20900C62C77 /* StationService.swift */,
+				88D690981C6BB25300C62C77 /* StationServiceAlamofire.swift */,
+			);
+			name = Station;
 			sourceTree = "<group>";
 		};
 		88EE58211C69AE3E000DFF44 = {
@@ -140,6 +168,8 @@
 		88EE582C1C69AE3E000DFF44 /* Bart */ = {
 			isa = PBXGroup;
 			children = (
+				88D690951C6BB1FF00C62C77 /* Station */,
+				88D6908E1C6BADF200C62C77 /* Models */,
 				880916E21C69BCA400967B63 /* Route */,
 				88EE585B1C69B2D5000DFF44 /* Root */,
 				88EE582D1C69AE3E000DFF44 /* AppDelegate.swift */,
@@ -174,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				88EE585C1C69B2F0000DFF44 /* RootContainer.swift */,
+				B7C6E4ECE8DE9191FDC3B7DC /* ServiceContainer.swift */,
 			);
 			name = Root;
 			sourceTree = "<group>";
@@ -433,12 +464,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880916E81C69BD3A00967B63 /* RouteServiceAlamoFire.swift in Sources */,
-				880916EE1C69C10E00967B63 /* RouteServiceContainer.swift in Sources */,
+				880916E81C69BD3A00967B63 /* RouteServiceAlamofire.swift in Sources */,
 				88EE58301C69AE3E000DFF44 /* ViewController.swift in Sources */,
 				880916E41C69BCBD00967B63 /* RouteService.swift in Sources */,
 				88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */,
+				88D690921C6BAF2B00C62C77 /* Route.swift in Sources */,
 				88EE582E1C69AE3E000DFF44 /* AppDelegate.swift in Sources */,
+				88D690901C6BAE0300C62C77 /* Station.swift in Sources */,
+				88D690991C6BB25300C62C77 /* StationServiceAlamofire.swift in Sources */,
+				88D690971C6BB20900C62C77 /* StationService.swift in Sources */,
+				88D690941C6BB0C700C62C77 /* StationManager.swift in Sources */,
+				B7C6E0D349AEEF473A3D8E68 /* ServiceContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

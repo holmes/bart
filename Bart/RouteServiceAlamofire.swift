@@ -10,7 +10,7 @@ import Alamofire
 import Foundation
 import RxSwift
 
-public class RouteServiceAlamoFire : RouteService {
+public class RouteServiceAlamofire : RouteService {
 
     func getRoutes() -> Observable<String> {
         let subject = PublishSubject<String>()

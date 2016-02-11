@@ -14,10 +14,16 @@ public class RootContainer {
 
     func initialize() -> Container {
         registerNetworkServices(rootContainer)
+
+        rootContainer.register(StationManager.self) { r in
+            let stationService = r.resolve(StationService.self)!
+            return StationManager(stationService: stationService)
+        }
+
         return rootContainer
     }
 
     private func registerNetworkServices(container: Container) {
-        RouteServiceContainer(parent: rootContainer).initialize()
+        ServiceContainer(parent: rootContainer).initialize()
     }
 }

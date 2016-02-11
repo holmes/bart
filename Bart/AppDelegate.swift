@@ -17,13 +17,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         let rootContainer = RootContainer().initialize()
-        let routeService = rootContainer.resolve(RouteService.self)
+        let stationManager:StationManager = rootContainer.resolve(StationManager.self)!
 
-        routeService?.getRoutes().subscribeNext {
-            NSLog($0)
-        }.addDisposableTo(disposeBag)
+        stationManager.stations.subscribeNext { stations in
+            stations.forEach {
+                NSLog($0.name)
+            }
+        }
 
-        // Override point for customization after application launch.
+        // Start us off right.
+        stationManager.loadStations()
+
         return true
     }
 
