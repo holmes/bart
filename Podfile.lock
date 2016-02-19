@@ -6,6 +6,7 @@ PODS:
   - RxTests (2.1.0):
     - RxSwift (~> 2.0)
   - Swinject (1.1.0)
+  - SWXMLHash (2.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - RxSwift (~> 2.0)
   - RxTests (~> 2.0)
   - Swinject (~> 1.1.0)
+  - SWXMLHash (~> 2.1.0)
 
 SPEC CHECKSUMS:
   Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
@@ -20,7 +22,8 @@ SPEC CHECKSUMS:
   RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
   RxTests: 94c67ffc37c36bd8c7aec90a84601a3db142be94
   Swinject: 514e56e46e3cd362f2cca07bb6ad1fdbed9abbfa
+  SWXMLHash: 7257a358b3ab2f7a209e0b4e4cf552e8b6df5f0f
 
-PODFILE CHECKSUM: fbf2291703ffbded32e9405be0db84d69b2beb4f
+PODFILE CHECKSUM: 57e5cd78a672fb07fedf49ce99875364d3ef97e3
 
-COCOAPODS: 0.39.5059
+COCOAPODS: 1.0.0.beta.2

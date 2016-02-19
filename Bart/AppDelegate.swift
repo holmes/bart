@@ -19,11 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let rootContainer = RootContainer().initialize()
     let stationManager: StationManager = rootContainer.resolve(StationManager.self)!
 
-    stationManager.stations.subscribeNext {
-      stations in
-      stations.forEach {
-        NSLog($0.name)
-      }
+    stationManager.stations
+        .subscribeNext { stations in
+            stations.forEach {
+                NSLog($0.name)
+            }
+    }
+
+    stationManager.stations
+        .subscribeError { error in
+            NSLog("it didn't work \(error)")
     }
 
     // Start us off right.

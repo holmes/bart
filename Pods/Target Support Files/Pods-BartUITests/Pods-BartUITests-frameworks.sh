@@ -82,18 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-Bart/Alamofire.framework"
-  install_framework "Pods-Bart/RxCocoa.framework"
-  install_framework "Pods-Bart/RxSwift.framework"
-  install_framework "Pods-Bart/SWXMLHash.framework"
-  install_framework "Pods-Bart/Swinject.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-Bart/Alamofire.framework"
-  install_framework "Pods-Bart/RxCocoa.framework"
-  install_framework "Pods-Bart/RxSwift.framework"
-  install_framework "Pods-Bart/SWXMLHash.framework"
-  install_framework "Pods-Bart/Swinject.framework"
-fi

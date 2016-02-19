@@ -11,7 +11,7 @@ import Foundation
 import RxSwift
 
 public class StationServiceAlamofire: StationService {
-  private static let STATIONS_URL = "http://api.bart.gov/api/stn.aspx?cmd=stns&key=MW9S-E7SL-26DU-VV8V";
+  private static let STATIONS_URL = "http://api.bart.gov/api/stn.aspx";
 
   func getStations() -> Observable<[Station]> {
     let subject = PublishSubject<[Station]>()
@@ -21,8 +21,18 @@ public class StationServiceAlamofire: StationService {
       "key": "MW9S-E7SL-26DU-VV8V",
     ]
 
-    Alamofire.request(.GET, StationServiceAlamofire.STATIONS_URL, parameters: parameters)
+    Alamofire
+        .request(.GET, StationServiceAlamofire.STATIONS_URL, parameters: parameters)
+        .responseArrayForKeyPath("root.stations.station") { (response: Response<[Station], NSError>) in
+            let result = response.result
 
+            if result.isSuccess {
+                subject.onNext(response.result.value!)
+            } else {
+                subject.onError(result.error!)
+            }
+    }
+    
     return subject
   }
 

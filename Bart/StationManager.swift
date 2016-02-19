@@ -25,7 +25,7 @@ public class StationManager {
   }
 
   public func loadStations() {
-
+    stationService.getStations().subscribe(stationsSubject)
   }
 
   public func getRoute(start: Station, end: Station) -> Route {

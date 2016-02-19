@@ -26,9 +26,11 @@
 		88EE58431C69AE3F000DFF44 /* BartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58421C69AE3F000DFF44 /* BartTests.swift */; };
 		88EE584E1C69AE3F000DFF44 /* BartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE584D1C69AE3F000DFF44 /* BartUITests.swift */; };
 		88EE585D1C69B2F0000DFF44 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EE585C1C69B2F0000DFF44 /* RootContainer.swift */; };
-		8C751BC92EBD55FE05C4A7EC /* Pods_BartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */; };
 		B7C6E0D349AEEF473A3D8E68 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E4ECE8DE9191FDC3B7DC /* ServiceContainer.swift */; };
-		CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA451E4F787252853439EFFF /* Pods_Bart.framework */; };
+		B7C6E671E146790861B4D240 /* ApiServiceAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6E6927B0EAF4691D2A209 /* ApiServiceAlamofire.swift */; };
+		C9C8D10D2112D4218C59DF90 /* Pods_Bart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E92B53E6D772D30B602B99F /* Pods_Bart.framework */; };
+		E70EBB0118F4CDD3DD041263 /* Pods_BartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5EDE9CBFDA82ABC41F9C80 /* Pods_BartUITests.framework */; };
+		F492132F4E7209F64650DD5C /* Pods_BartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9176413F18EEA3358B3C117 /* Pods_BartTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2FE4B420C7CAFFA8F17DF993 /* Pods-BartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.release.xcconfig"; sourceTree = "<group>"; };
-		4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.release.xcconfig"; sourceTree = "<group>"; };
+		0DD8046C648EA091AE4494CB /* Pods-Bart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.release.xcconfig"; sourceTree = "<group>"; };
+		2FDA2A70AEB153718089129C /* Pods-Bart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.debug.xcconfig"; sourceTree = "<group>"; };
+		5F5EDE9CBFDA82ABC41F9C80 /* Pods_BartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE29CBFC741956F9AE5CBC6 /* Pods-BartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E92B53E6D772D30B602B99F /* Pods_Bart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880916E01C69B54D00967B63 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
 		880916E31C69BCBD00967B63 /* RouteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteService.swift; sourceTree = "<group>"; };
 		880916E51C69BCD100967B63 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
@@ -77,11 +82,12 @@
 		88EE584F1C69AE3F000DFF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EE585C1C69B2F0000DFF44 /* RootContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
 		88EE585E1C69B3FD000DFF44 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = "Pods/../build/Debug-iphoneos/Swinject.framework"; sourceTree = "<group>"; };
-		97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC0FF90F1DADDE9B71427DB /* Pods-BartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartUITests/Pods-BartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB1823FEEC8E37C6F431AD4 /* Pods-BartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartUITests/Pods-BartUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7C6E4ECE8DE9191FDC3B7DC /* ServiceContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
-		BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bart/Pods-Bart.debug.xcconfig"; sourceTree = "<group>"; };
-		CA451E4F787252853439EFFF /* Pods_Bart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C6E6927B0EAF4691D2A209 /* ApiServiceAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServiceAlamofire.swift; sourceTree = "<group>"; };
+		CC24A53B886513D4109DEB77 /* Pods-BartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartTests/Pods-BartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9176413F18EEA3358B3C117 /* Pods_BartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +99,7 @@
 				880916EC1C69BECF00967B63 /* RxSwift.framework in Frameworks */,
 				880916E61C69BCD100967B63 /* Alamofire.framework in Frameworks */,
 				880916E11C69B54D00967B63 /* Swinject.framework in Frameworks */,
-				CD395F063A99974B698C714D /* Pods_Bart.framework in Frameworks */,
+				C9C8D10D2112D4218C59DF90 /* Pods_Bart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C751BC92EBD55FE05C4A7EC /* Pods_BartTests.framework in Frameworks */,
+				F492132F4E7209F64650DD5C /* Pods_BartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70EBB0118F4CDD3DD041263 /* Pods_BartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +157,8 @@
 				88EE58411C69AE3F000DFF44 /* BartTests */,
 				88EE584C1C69AE3F000DFF44 /* BartUITests */,
 				88EE582B1C69AE3E000DFF44 /* Products */,
-				A51FB1E7AF2865E57496DCEB /* Pods */,
 				AFF2E0705B90A398F0C9308D /* Frameworks */,
+				920398F9583D2CD973DB73DD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +185,7 @@
 				88EE58341C69AE3E000DFF44 /* Assets.xcassets */,
 				88EE58361C69AE3E000DFF44 /* LaunchScreen.storyboard */,
 				88EE58391C69AE3E000DFF44 /* Info.plist */,
+				B7C6EED366CFE39F39218007 /* Alamofire */,
 			);
 			path = Bart;
 			sourceTree = "<group>";
@@ -209,13 +217,15 @@
 			name = Root;
 			sourceTree = "<group>";
 		};
-		A51FB1E7AF2865E57496DCEB /* Pods */ = {
+		920398F9583D2CD973DB73DD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */,
-				4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */,
-				97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */,
-				2FE4B420C7CAFFA8F17DF993 /* Pods-BartTests.release.xcconfig */,
+				2FDA2A70AEB153718089129C /* Pods-Bart.debug.xcconfig */,
+				0DD8046C648EA091AE4494CB /* Pods-Bart.release.xcconfig */,
+				CC24A53B886513D4109DEB77 /* Pods-BartTests.debug.xcconfig */,
+				6EE29CBFC741956F9AE5CBC6 /* Pods-BartTests.release.xcconfig */,
+				9DB1823FEEC8E37C6F431AD4 /* Pods-BartUITests.debug.xcconfig */,
+				8BC0FF90F1DADDE9B71427DB /* Pods-BartUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -228,10 +238,19 @@
 				880916E51C69BCD100967B63 /* Alamofire.framework */,
 				880916E01C69B54D00967B63 /* Swinject.framework */,
 				88EE585E1C69B3FD000DFF44 /* Swinject.framework */,
-				CA451E4F787252853439EFFF /* Pods_Bart.framework */,
-				9DEB2C3561E64F4E72BE5A6B /* Pods_BartTests.framework */,
+				7E92B53E6D772D30B602B99F /* Pods_Bart.framework */,
+				D9176413F18EEA3358B3C117 /* Pods_BartTests.framework */,
+				5F5EDE9CBFDA82ABC41F9C80 /* Pods_BartUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7C6EED366CFE39F39218007 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6E6927B0EAF4691D2A209 /* ApiServiceAlamofire.swift */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,12 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88EE58521C69AE3F000DFF44 /* Build configuration list for PBXNativeTarget "Bart" */;
 			buildPhases = (
-				6D98E922A9AA0D2BFE4FFD1C /* Check Pods Manifest.lock */,
+				F1376207BE49A620EBF58388 /* Check Pods Manifest.lock */,
 				88EE58261C69AE3E000DFF44 /* Sources */,
 				88EE58271C69AE3E000DFF44 /* Frameworks */,
 				88EE58281C69AE3E000DFF44 /* Resources */,
-				70DD5448EF66EA5F8B31310C /* Embed Pods Frameworks */,
-				1E88FECF54D8B66775F54195 /* Copy Pods Resources */,
+				78BF8942A2AE96E47F481FE2 /* Embed Pods Frameworks */,
+				3F50570BCA11F6A7DAA537A1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,12 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88EE58551C69AE3F000DFF44 /* Build configuration list for PBXNativeTarget "BartTests" */;
 			buildPhases = (
-				728C8988B3B01C71AD41DF97 /* Check Pods Manifest.lock */,
+				6B5FCC7AA798FF70C8FB3EC8 /* Check Pods Manifest.lock */,
 				88EE583A1C69AE3F000DFF44 /* Sources */,
 				88EE583B1C69AE3F000DFF44 /* Frameworks */,
 				88EE583C1C69AE3F000DFF44 /* Resources */,
-				27BD631FCDA597FDE4863D8F /* Embed Pods Frameworks */,
-				81D6C3088B26434C02FA6E01 /* Copy Pods Resources */,
+				955B3A61DCF01689C4516D23 /* Embed Pods Frameworks */,
+				6290971434BAA9D69D1C18DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88EE58581C69AE3F000DFF44 /* Build configuration list for PBXNativeTarget "BartUITests" */;
 			buildPhases = (
+				E70EE3CC74791102FF5C4B6C /* Check Pods Manifest.lock */,
 				88EE58451C69AE3F000DFF44 /* Sources */,
 				88EE58461C69AE3F000DFF44 /* Frameworks */,
 				88EE58471C69AE3F000DFF44 /* Resources */,
+				8AB657CC56306B7C40ABC537 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,7 +388,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E88FECF54D8B66775F54195 /* Copy Pods Resources */ = {
+		3F50570BCA11F6A7DAA537A1 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,22 +403,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bart/Pods-Bart-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		27BD631FCDA597FDE4863D8F /* Embed Pods Frameworks */ = {
+		6290971434BAA9D69D1C18DE /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartTests/Pods-BartTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartTests/Pods-BartTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D98E922A9AA0D2BFE4FFD1C /* Check Pods Manifest.lock */ = {
+		6B5FCC7AA798FF70C8FB3EC8 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,7 +433,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		70DD5448EF66EA5F8B31310C /* Embed Pods Frameworks */ = {
+		78BF8942A2AE96E47F481FE2 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,7 +448,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bart/Pods-Bart-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		728C8988B3B01C71AD41DF97 /* Check Pods Manifest.lock */ = {
+		8AB657CC56306B7C40ABC537 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartUITests/Pods-BartUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		955B3A61DCF01689C4516D23 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartTests/Pods-BartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E70EE3CC74791102FF5C4B6C /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,19 +493,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		81D6C3088B26434C02FA6E01 /* Copy Pods Resources */ = {
+		F1376207BE49A620EBF58388 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartTests/Pods-BartTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -475,6 +526,7 @@
 				88D690971C6BB20900C62C77 /* StationService.swift in Sources */,
 				88D690941C6BB0C700C62C77 /* StationManager.swift in Sources */,
 				B7C6E0D349AEEF473A3D8E68 /* ServiceContainer.swift in Sources */,
+				B7C6E671E146790861B4D240 /* ApiServiceAlamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +666,7 @@
 		};
 		88EE58531C69AE3F000DFF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD5FDC1053EAC6EE7889C717 /* Pods-Bart.debug.xcconfig */;
+			baseConfigurationReference = 2FDA2A70AEB153718089129C /* Pods-Bart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -630,7 +682,7 @@
 		};
 		88EE58541C69AE3F000DFF44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C209813C418DD42E20C5A43 /* Pods-Bart.release.xcconfig */;
+			baseConfigurationReference = 0DD8046C648EA091AE4494CB /* Pods-Bart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -646,7 +698,7 @@
 		};
 		88EE58561C69AE3F000DFF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97C5ADD065338DE432CFF18C /* Pods-BartTests.debug.xcconfig */;
+			baseConfigurationReference = CC24A53B886513D4109DEB77 /* Pods-BartTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BartTests/Info.plist;
@@ -659,7 +711,7 @@
 		};
 		88EE58571C69AE3F000DFF44 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FE4B420C7CAFFA8F17DF993 /* Pods-BartTests.release.xcconfig */;
+			baseConfigurationReference = 6EE29CBFC741956F9AE5CBC6 /* Pods-BartTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BartTests/Info.plist;
@@ -672,6 +724,7 @@
 		};
 		88EE58591C69AE3F000DFF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DB1823FEEC8E37C6F431AD4 /* Pods-BartUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BartUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -684,6 +737,7 @@
 		};
 		88EE585A1C69AE3F000DFF44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC0FF90F1DADDE9B71427DB /* Pods-BartUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = BartUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
